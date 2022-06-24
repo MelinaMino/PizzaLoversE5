@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,400;1,500&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Prompt', sans-serif;
+}
+
+body {
+    background-color: #efebe2;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    color: #381706;
+    overflow-x: hidden;
+    justify-content: center;
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    background-color: #ffff;
+}
+
+.imgpizza {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    object-fit: contain;
+}
+
+.bienvenida {
+    width: 100%;
+    height: 20%;
+    margin-top: 0%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.catalogo {
+    width: 100%;
+    height: 70%;
+    justify-content: center;
+    text-align: center;
+    margin: 15px;
+}
+
+#vidriera {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: scroll;
+}
+
+#cart-vidriera {
+    text-align: center;
+    justify-content: center;
+    width: 20%;
+    height: 90%;
+    background-color: #efebe2;
+    border-radius: 20px;
+    margin: 3px;
+    box-shadow: 0 40px 60px -6px black;
+    align-items: center;
+}
+
+.renderVidriera {
+    text-align: center;
+    justify-content: center;
+    width: 90%;
+    height: 40%;
+    object-fit: cover;
+    margin: 5px;
+}
+
+.VidrieraImg {
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.precioVidriera {
+    width: 70%;
+    background-color: #381706;
+    color: #ffff;
+    padding: 3px;
+    font-size: 1.1rem;
+    font-weight: 900;
+    border-radius: 4px;
+    margin: 0;
+}
+
+.nombreVidriera {
+    font-size: 1.1rem;
+    font-weight: 900;
+    margin: 3px;
+    text-transform: uppercase;
+}
+
+.infoVidriera {
+    width: 90%;
+    height: 60%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.ingVidriera {
+    display: block;
+    overflow-wrap: normal;
+    margin: 3px;
+    text-align: center;
+    font-size: 1rem;
+    opacity: 0;
+    transition: 1s ease;
+}
+
+#cart-vidriera:hover .ingVidriera {
+    cursor: pointer;
+    opacity: 1;
+    height: 100%;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 15px;
+    align-items: center;
+    background-color: #381706;
+    color: #ffff;
+}
+
+h3 {
+    font-size: 1.5rem;
+    padding: 15px;
+    align-items: center;
+}
+
+.conteiner {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.visible {
+    width: 60%;
+    height: 90%;
+    text-align: center;
+    background-color: #ffff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 25px 25px 50px #0000, -25px -25px 50px #1b1c1b;
+    transition: 0.8s all ease-in-out;
+}
+
+.visible:hover {
+    margin-top: -20px;
+}
+
+.render {
+    width: 30%;
+    height: 60%;
+    object-fit: cover;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.info {
+    width: 50%;
+    height: 60%;
+}
+
+.render img {
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.nombrePizza {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.info p {
+    text-align: center;
+    padding: 5px;
+}
+
+#form {
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    text-align: center;
+}
+
+#name {
+    width: 30%;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    box-shadow: 2px;
+    margin: 1.5rem;
+    align-items: center;
+    text-align: center;
+}
+
+#boton {
+    align-items: center;
+    background-color: #c30c0c;
+    color: #ffff;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    box-shadow: 2px;
+    cursor: pointer;
+}
